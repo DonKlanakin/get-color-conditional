@@ -1,5 +1,7 @@
+let input = null;
+
 setTimeout(() => {
-    let input = prompt("fill color");
+    input = prompt("fill color");
 }, 2000);
 
 let p = document.getElementsByTagName("p")[0];
