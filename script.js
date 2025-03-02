@@ -1,4 +1,7 @@
-let input = prompt("fill color");
+setTimeout(() => {
+    let input = prompt("fill color");
+}, 2000);
+
 let p = document.getElementsByTagName("p")[0];
 
 if ((input === "red") || (input === "yellow") || (input === "green")) {
